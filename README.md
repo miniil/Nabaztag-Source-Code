@@ -29,9 +29,9 @@ Le firmware du lapin est un logiciel de bas niveau.  Il doit être compilé en u
 Le language utilisé pour le firmware est le C.  Les sources se trouve dans Hardware/compilateur/Projet-IAR.
 
 Le firmware comprend :
-<li>
-Tous les drivers de chaque élément interne du lapin (WIFI, USB, LED, RFID, ...).
-Un OS permettant la gestion du multitâche, l'interraction entre les différents driver.
-Une machine virtuelle pour exécuter le code Metal compilé (Metal = Méta Language créé par un des créateurs du lapin : Sylvain Huet).  TODO : + d'info sur le langage Metal?
-Le bc-boot (bytecode boot) compilé : fichier bc.c
-</li>
+<ul>
+	<li>Tous les drivers de chaque élément interne du lapin (WIFI, USB, LED, RFID, ...).</li>
+	<li>Un OS permettant la gestion du multitâche, l'interraction entre les différents driver.</li>
+	<li>Une machine virtuelle pour exécuter le code Metal compilé (Metal = Méta Language créé par un des créateurs du lapin : Sylvain Huet).  TODO : + d'info sur le langage Metal?</li>
+	<li>Le bc-boot (bytecode boot) compilé : fichier bc.c</li>
+</ul>
